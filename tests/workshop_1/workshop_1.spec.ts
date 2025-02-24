@@ -16,7 +16,7 @@ test.skip('Interacting with Web elements Gitlab', async ({page})=>{
 
 })
 
-test.only('Using Various locator methods', async ({page})=>{
+test.skip('Using Various locator methods', async ({page})=>{
 
     await page.goto('https://gitlab.com/');
     await page.getByRole('link', {name: 'Sign in'}).click()
